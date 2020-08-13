@@ -22,3 +22,11 @@ List controller
 
 # step 4: validations
 
+# step 5: complete or incomplete 
+
+<input class="toggle" type="checkbox">
+$(function(){
+    $("input.toggle").on("change", function(){
+        $(this).parents("form").tridder("submit")
+    })
+})
