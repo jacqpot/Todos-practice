@@ -5,10 +5,10 @@
 			</header>
 			<section class="main">
 				<ul class="todo-list">
-                    
+                    <%@list.items.each do |item|%>
                         <li>
                             <div class="view">
-                                <label> </label>
+                                <label> <%=item.description%> </label>
                             </div>
                         </li>
                    

@@ -14,4 +14,8 @@ List controller
     think about!!
     does it impact my db
     does it impact my routes
-    
+
+# step 3: Add items to a list
+    - make the items ina list real
+        -a list has many items and every item belongs to a list
+            id, desc, list_id 
