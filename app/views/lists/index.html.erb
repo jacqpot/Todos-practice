@@ -3,7 +3,8 @@
 				<h1>todo list </h1>
 				
                     <%=form_for(@list) do |f|%>
-                        <%=f.text_field :name%>
+                        <%= f.text_field :name, :class => "new-todo" %>
+                        <%=f.submit%>
                     <% end %>
 			</header>
 			<section class="main">
