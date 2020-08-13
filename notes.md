@@ -11,4 +11,7 @@ List controller
     -see all their lists
     -show a list
 
+    think about!!
+    does it impact my db
+    does it impact my routes
     
