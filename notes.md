@@ -19,3 +19,6 @@ List controller
     - make the items ina list real
         -a list has many items and every item belongs to a list
             id, desc, list_id 
+
+# step 4: validations
+
